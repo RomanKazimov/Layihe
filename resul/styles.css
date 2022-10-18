@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+}
+
+.main {
+  padding: 21px 121px 121px;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+header {
+  padding-top: 21px;
+}
+
+.meta-info {
+  display: flex;
+  margin-top: 97px;
+  font-size: 20px;
+  line-height: 115%;
+  list-style-type: none;
+}
+
+.meta-info__item {
+  margin-right: 45px;
+}
+
+.meta-info__item span {
+  margin-left: 10px;
+}
+
+.intro, .c-about__main, .c-about__lessons {
+  display: flex;
+}
+
+.intro__heading {
+  margin-top: 29px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 101.38%;
+}
+
+.intro__paragraph {
+  margin-top: 12px;
+  width: 414px;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.intro__image {
+  margin-left: auto;
+  width: 304px;
+  height: 356px;
+}
+
+.quote {
+  margin: 67.6px auto 0 auto;
+  padding: 19.5px 0;
+  width: 483px;
+  border-radius: 5px;
+  background-color: #1E4681;
+  color: #fff;
+}
+
+.quote__text {
+  padding: 0 26.03px 0 27.02px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 130%;
+}
+
+.quote__author {
+  margin-top: 10px;
+  margin-right: 18.5px;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: right;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+}
+
+.c-about {
+  margin-top: 173px;
+}
+
+.c-about__paragraph {
+  margin-top: 35px;
+  width: 662px;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.c-about__main-image {
+  margin-left: auto;
+}
+
+.c-about__lessons {
+  margin-top: 100px;
+  align-items: center;
+}
+
+.c-about__lessons-image {
+  margin-right: 132px;
+}
+
+.c-about__lessons-item {
+  margin-right: 92px;
+  font-family: 'Roboto';
+  line-height: 130%;
+}
+
+.c-about__lessons-title {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.c-about__lessons-paragraph {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.c-format {
+  margin-top: 178px;
+}
+
+.c-format__list {
+  display: flex;
+  margin-top: 100px;
+}
+
+.c-format__item {
+  width: 245px;
+  margin-right: 120px;
+}
+
+.c-format__title {
+  color: #1E4681;
+}
+
+.c-format__paragraph {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.c-learn {
+  margin-top: 180px;
+}
+
+.c-learn__list {
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+.c-learn__item {
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.c-program {
+  margin-top: 230px;
+}
+
+.c-program__items {
+  margin-top: 110px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 37px;
+}
+
+.c-program__item {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.c-program__image {
+  width: 100%;
+}
+
+.c-program__text {
+  padding: 11px 14px 23px 19px;
+  font-family: 'Roboto';
+  line-height: 130%;
+}
+
+.c-program__title {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.c-program__paragraph {
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.c-students {
+  padding: 100px 122px;
+  background-color: #EFEFEF;
+}
+
+.review {
+  margin-top: 60px;
+  padding: 40px 45px;
+  width: 791px;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.review__text {
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.review__author {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.review__username {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 101.38%;
+}
+
+.review__social-link {
+  margin-top: 10px;
+}
+
+.c-plan {
+  padding: 180px 122px;
+  background: #9DC9C8;
+}
+
+.c-plan__d-cost {
+  margin-top: 54px;
+}
+
+.c-plan__cost {
+  font-size: 80px;
+  line-height: 101.38%;
+}
+
+.c-plan__about {
+  margin-top: 130px;
+  display: flex;
+  line-height: 101.38%;
+}
+
+.c-plan__about-item {
+  width: 295px;
+  margin-right: 70px;
+}
+
+.c-plan__about p {
+  margin-top: 15px;
+}
+
+.c-plan__about p:first-child {
+  font-size: 25px;
+}
+
+.c-plan__about p:last-child {
+  font-size: 18px;
+}
+
+footer {
+  padding: 50px 122px 25px;
+  background-color: #000;
+}
+
+.f-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-contact {
+  font-size: 25px;
+  line-height: 101.38%;
+  color: #fff;
+}
+
+.f-contact img {
+  width: 22px;
+}
+
+.f-phone, .f-email {
+  display: flex;
+}
+
+.f-phone p, .f-email p {
+  margin-left: 22px;
+}
+
+.f-social-links {
+  margin-top: 30px;
+}
+
+.f-social-links img {
+  width: 33px;
+}
+
+.f-copyright {
+  margin-top: 150px;
+  font-size: 18px;
+  line-height: 101.38%;
+  color: #fff;
+}
